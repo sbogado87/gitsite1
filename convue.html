@@ -9,7 +9,8 @@
 
 </head>
 <body>
-    <div>
+     <!-- Our application root element -->
+     <div id="app">
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
@@ -45,8 +46,8 @@
     </b-collapse>
   </b-navbar>
 </div>
-    <!-- Our application root element -->
-    <div id="app">
+   
+   
       <b-container>
         <div>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
